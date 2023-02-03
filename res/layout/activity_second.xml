@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/DoliDroidThemeFirst" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <WebView android:textColor="@color/black" android:id="@id/webViewContent" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:id="@id/progressBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:topLeftRadius="0.0px" android:topRightRadius="0.0px" android:bottomLeftRadius="0.0px" android:bottomRightRadius="0.0px" style="@android:style/Widget.ProgressBar.Inverse" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>

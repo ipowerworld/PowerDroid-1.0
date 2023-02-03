@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_settings" android:menuCategory="secondary" android:orderInCategory="300" android:title="@string/menu_settings">
+        <menu android:id="@id/sousmenu">
+            <item android:id="@id/always_show_bar" android:visible="false" android:menuCategory="secondary" android:orderInCategory="120" android:title="@string/menu_show_bar_on" android:checkable="true" />
+            <item android:id="@id/always_autofill" android:menuCategory="secondary" android:orderInCategory="130" android:title="@string/menu_autofill_on" android:checkable="true" />
+            <item android:id="@id/always_uselocalresources" android:menuCategory="secondary" android:orderInCategory="135" android:title="@string/menu_uselocalresources_on" android:checkable="true" />
+            <item android:id="@id/clear_all_urls" android:menuCategory="secondary" android:orderInCategory="137" android:title="@string/menu_clear_all_urls" />
+            <item android:id="@id/about" android:menuCategory="secondary" android:orderInCategory="500" android:title="@string/menu_info" android:titleCondensed="@string/menu_info_short" android:showAsAction="withText" />
+        </menu>
+    </item>
+    <item android:icon="@android:drawable/ic_menu_close_clear_cancel" android:id="@id/quit" android:menuCategory="secondary" android:orderInCategory="400" android:title="@string/menu_quit" android:showAsAction="withText" />
+</menu>
